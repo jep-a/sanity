@@ -145,7 +145,7 @@ export const FormView = forwardRef<HTMLDivElement, FormViewProps>(function FormV
       paddingTop={5}
       paddingBottom={9}
       sizing="border"
-      width={1}
+      width={3}
     >
       <PresenceOverlay margins={margins}>
         <Box as="form" onSubmit={preventDefault} ref={setRef}>
